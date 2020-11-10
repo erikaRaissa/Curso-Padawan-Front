@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import {p1,p2,p3,p4,p5, p6} from './Users';
+import {p1,p2,p3,p4,p5, p6, p7, p8} from './Users';
 import {Pagina} from './Pagina';
 
 class App extends Component {
@@ -9,7 +9,7 @@ class App extends Component {
     this.state ={
       index:0,
       people:[
-        p1,p2,p3,p4,p5,p6,
+        p6,p7,p8,p1,p2,p3,p4,p5,
       ],
     }
   }
