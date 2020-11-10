@@ -49,8 +49,10 @@ export class Pagina extends React.Component{
         return(
             <div>
                 <p>
-                    <button onClick= {()=> this.handleClick(-1)} disabled = {this.checkDisabled(-1)}>Previous Image</button>
-                    <button onClick= {()=> this.handleClick(1)} disabled = {this.checkDisabled(1)}>Next Image</button>
+                    <button onClick= {()=> this.handleClick(-1)} 
+                    disabled = {this.checkDisabled(-1)}>Previous Image</button>
+                    <button onClick= {()=> this.handleClick(1)} 
+                    disabled = {this.checkDisabled(1)}>Next Image</button>
                 </p>
                 <div class = 'container'>
                         <img className = 'ImageStyle' src = {img[indexImg[index]]} />
