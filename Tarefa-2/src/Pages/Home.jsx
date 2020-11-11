@@ -1,7 +1,7 @@
 import React from 'react'
 import {connect} from 'react-redux'
 import {withRouter} from 'react-router-dom'
-import UserCard from '../Components.jsx/UserCard';
+import UserCard from '../Components/UserCard';
 
 const Home = (state) =>{
     console.log(state.state);
